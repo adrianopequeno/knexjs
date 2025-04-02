@@ -9,26 +9,26 @@ const knex = require("../config/database");
 
 const data = [
   {
-    first_name: "Maria",
+    first_name: "Ciclano",
     last_name: "Oliveira",
-    email: "maria@hotmail.com",
-    password_hash: "maria_hash",
-    salary: 123.12,
+    email: "ciclano@hotmail.com",
+    password_hash: "ciclano_hash",
+    salary: 4023.12,
   },
   {
-    first_name: "Pedro",
+    first_name: "Beltrano",
     last_name: "Francisco",
-    email: "pedro@hotmail.com",
-    password_hash: "pedro_hash",
-    salary: 321.12,
+    email: "beltrano@hotmail.com",
+    password_hash: "beltrano_hash",
+    salary: 3521.12,
   },
-  {
-    first_name: "João",
-    last_name: "Pereira",
-    email: "joao@empresa.com",
-    password_hash: "joao_senha",
-    salary: 1000.12,
-  },
+  // {
+  //   first_name: "João",
+  //   last_name: "Pereira",
+  //   email: "joao@empresa.com",
+  //   password_hash: "joao_senha",
+  //   salary: 1000.12,
+  // },
 ];
 
 const insert = knex("users").insert(data);
